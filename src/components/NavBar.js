@@ -1,34 +1,33 @@
 import React from "react";
 import "../styles/NavBar.css";
+import ReorderIcon from "@mui/icons-material/Reorder";
+import { Reorder } from "@mui/icons-material";
 
 function NavBar() {
   return (
-    <nav className="navBar">
-      <a className="title">Finance Flow</a>
-      <ul>
-        <li>
-          <a>Dashboard</a>
-        </li>
-        <li>
-          <a>Transaction</a>
-        </li>
-        <li>
-          <a>Categories</a>
-        </li>
-        <li>
-          <a>Budget</a>
-        </li>
-        <li>
-          <a>Report</a>
-        </li>
-        <li>
-          <a>Goals</a>
-        </li>
-        <li>
-          <a>Profile</a>
-        </li>
-      </ul>
-    </nav>
+    <div className="navBar">
+      <div className="leftSide">
+        <a>Finance Flow</a>
+      </div>
+      <div className="rightSide">
+        <a>Dashboard</a>
+
+        <a>Transaction</a>
+
+        <a>Categories</a>
+
+        <a>Budget</a>
+
+        <a>Report</a>
+
+        <a>Goals</a>
+
+        <a>Profile</a>
+      </div>
+      <div className="navIcon">
+        <ReorderIcon />
+      </div>
+    </div>
   );
 }
 

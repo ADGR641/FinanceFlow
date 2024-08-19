@@ -12,35 +12,46 @@ body {
   color: black; /*word color*/
   display: flex; /*customize spacing*/
   justify-content: space-between; /*Make space middle*/
-  align-items: stretch; /*make content go center*/
+  align-items: center; /*make content go center*/
   gap: 2rem;
   padding: 1rem 2rem; /*Put space on the edges*/
 }
 
-/*The logo on the left*/
-.title {
-  font-size: 2rem;
-}
-
 /*The right side content*/
-.navBar ul {
-  padding: 0;
+.rightSide {
   margin: 0;
-  list-style: none; /*Remove bullet*/
   display: flex; /*Make it flow left to right*/
   gap: 1rem; /*Space between each link*/
-}
-
-.navBar a {
   color: inherit;
   text-decoration: none; /*Remove underline from hyperlink*/
+  align-items: center;
+}
+
+.leftSide {
+  color: inherit;
   height: 100%;
   display: flex;
   align-items: center;
   padding: 0.25rem;
+  font-size: 2rem;
 }
 
 /*When mouse move over it*/
-.navBar li:hover {
+.rightSide a:hover {
   text-decoration: underline;
+}
+
+.navIcon {
+  display: none;
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  .rightSide {
+    display: none;
+  }
+
+  .navIcon {
+    display: contents;
+  }
 }
