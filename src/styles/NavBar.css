@@ -45,8 +45,32 @@ body {
   display: none;
 }
 
+#hide {
+  display: none;
+  transition: 1s;
+  left: 0;
+}
+
+#show {
+  display: show;
+  transition: 1s;
+  left: 0;
+}
+
+.hiddenRightSide {
+  margin: 0;
+  display: grid; /*Make it flow left to right*/
+  gap: 2rem; /*Space between each link*/
+  padding-bottom: 5%;
+  background-color: white;
+}
+
+.hiddenRightSide a {
+  border: rgb(19, 78, 130);
+}
+
 /* Phones */
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .rightSide {
     display: none;
   }
