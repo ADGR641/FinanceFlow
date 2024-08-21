@@ -1,0 +1,19 @@
+.showAmountBody {
+  background-color: aquamarine;
+  border: solid;
+  border-radius: 3rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.amountTitles {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.showAmount {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
