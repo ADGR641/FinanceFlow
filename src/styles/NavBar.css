@@ -1,11 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
 /*The whole navbar*/
 .navBar {
   background-color: white;
@@ -15,6 +7,7 @@ body {
   align-items: center; /*make content go center*/
   gap: 2rem;
   padding: 1rem 2rem; /*Put space on the edges*/
+  box-shadow: 1px 1px 5px gray;
 }
 
 /*The right side content*/
@@ -33,7 +26,6 @@ body {
   display: flex;
   align-items: center;
   padding: 0.25rem;
-  font-size: 2rem;
 }
 
 /*When mouse move over it*/
@@ -62,11 +54,19 @@ body {
   display: grid; /*Make it flow left to right*/
   gap: 2rem; /*Space between each link*/
   padding-bottom: 5%;
+  padding-top: 5%;
   background-color: white;
+  box-shadow: 1px 1px 5px gray;
 }
 
 .hiddenRightSide a {
   border: rgb(19, 78, 130);
+}
+
+.navBarTitle {
+  font-size: 32px;
+  font-family: "Kreon";
+  text-shadow: 1px 1px 4px #000000;
 }
 
 /* Phones */

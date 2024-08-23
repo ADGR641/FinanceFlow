@@ -4,5 +4,36 @@
 
 body {
   margin: 0;
-  background-color: lightblue;
+  background-color: #ffffff;
+}
+
+.showAmount {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 2rem;
+}
+
+.availableAmount,
+.showTotalSpend,
+.showBudgetGoal {
+  border: solid;
+  padding: 3rem;
+  width: 20%;
+  border-radius: 5%;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.showExpensesAllocation {
+  border: solid;
+  padding: 5rem;
+  width: 50%;
+  border-radius: 5%;
+  box-shadow: 1px 1px 5px gray;
+  align-content: center;
+}
+
+.availableAmountTitle {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
 }

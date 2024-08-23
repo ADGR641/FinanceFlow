@@ -13,9 +13,13 @@ function NavBar() {
 
   return (
     <>
+      <link
+        href="https://fonts.googleapis.com/css?family=Kreon"
+        rel="stylesheet"
+      ></link>
       <div className="navBar">
         <div className="leftSide">
-          <a>Finance Flow</a>
+          <a className="navBarTitle">FINANCE FLOW</a>
         </div>
         <button className="navIcon" onClick={navClick}>
           <ReorderIcon />
