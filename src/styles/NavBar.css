@@ -1,81 +1,42 @@
-/*The whole navbar*/
 .navBar {
   background-color: white;
-  color: black; /*word color*/
-  display: flex; /*customize spacing*/
-  justify-content: space-between; /*Make space middle*/
-  align-items: center; /*make content go center*/
-  gap: 2rem;
-  padding: 1rem 2rem; /*Put space on the edges*/
-  box-shadow: 1px 1px 5px gray;
+  float: left;
+  width: 20%;
+  height: 100vh;
+  border-right: solid;
+  border-width: thin;
+  border-color: grey;
 }
 
-/*The right side content*/
-.rightSide {
-  margin: 0;
-  display: flex; /*Make it flow left to right*/
-  gap: 1rem; /*Space between each link*/
-  color: inherit;
-  text-decoration: none; /*Remove underline from hyperlink*/
-  align-items: center;
+.navBarTitles {
+  padding-top: 2rem;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bold;
 }
 
-.leftSide {
-  color: inherit;
-  height: 100%;
+.navBarOptions {
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.navBarOptions ul {
   display: flex;
-  align-items: center;
-  padding: 0.25rem;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
-/*When mouse move over it*/
-.rightSide a:hover {
-  text-decoration: underline;
+.navBarOptions li {
+  border: solid;
+  border-radius: 25px;
+  border-color: white;
+  margin: 0.1rem;
+  padding: 1rem;
+  text-align: left;
 }
 
-.navIcon {
-  display: none;
-}
-
-#hide {
-  display: none;
-  transition: 1s;
-  left: 0;
-}
-
-#show {
-  display: show;
-  transition: 1s;
-  left: 0;
-}
-
-.hiddenRightSide {
-  margin: 0;
-  display: grid; /*Make it flow left to right*/
-  gap: 2rem; /*Space between each link*/
-  padding-bottom: 5%;
-  padding-top: 5%;
-  background-color: white;
-  box-shadow: 1px 1px 5px gray;
-}
-
-.hiddenRightSide a {
-  border: rgb(19, 78, 130);
-}
-
-.navBarTitle {
-  font-size: 32px;
-  font-family: "Kreon";
-  text-shadow: 1px 1px 4px #000000;
-}
-
-/* Phones */
-@media (max-width: 680px) {
-  .rightSide {
-    display: none;
-  }
-
-  .navIcon {
-    display: contents;
-  }
+.navBarOptions li:hover {
+  background-color: black;
+  color: white;
 }
