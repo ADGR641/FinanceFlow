@@ -1,7 +1,7 @@
 .navBar {
   background-color: white;
   float: left;
-  width: 20%;
+  width: 16%;
   height: 100vh;
   border-right: solid;
   border-width: thin;
@@ -39,4 +39,15 @@
 .navBarOptions li:hover {
   background-color: black;
   color: white;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.navItem a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: inherit;
 }
