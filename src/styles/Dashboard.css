@@ -1,10 +1,31 @@
-.dashBoard {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem;
+.dashBoardBody {
+  padding-left: 18.1%;
 }
-.pageTitle {
-  font-size: 1.25rem;
-  text-align: left;
+
+.introduction {
+  align-items: center;
+  display: flex;
+}
+
+.greetName {
+  padding-left: 1rem;
   font-weight: bold;
+}
+
+.introductionFiller {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.totalStats {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.totalRevenue {
+  border: solid;
+  border-width: thin;
+  border-color: grey;
+  padding: 5rem;
 }
