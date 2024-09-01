@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Dashboard.css";
 import Person2Icon from "@mui/icons-material/Person2";
+
 function Dashbaord() {
   return (
     <>
@@ -16,9 +17,51 @@ function Dashbaord() {
         </div>
 
         <div className="totalStats">
-          <div className="totalRevenue">Total Revenue</div>
-          <div className="totalExpense">Expenses</div>
-          <div className="totalProfit">Profit</div>
+          <div className="totalRevenue">
+            <div className="totalStatsTopSide">
+              <div className="totalStatsPercent">+10%</div>
+              <div className="totalStatschart"></div>
+            </div>
+            <div className="totalStatsBottomSide">
+              <div className="totalStatsTitle">Total Revenue</div>
+              <div className="totalStatsAmount">$100,000</div>
+            </div>
+          </div>
+          <div className="totalExpenses">
+            <div className="totalStatsTopSide">
+              <div className="totalStatsPercent">-8.8%</div>
+              <div className="totalStatschart">Picture</div>
+            </div>
+            <div className="totalStatsBottomSide">
+              <div className="totalStatsTitle">Total Expenses</div>
+              <div className="totalStatsAmount">$80,000</div>
+            </div>
+          </div>
+          <div className="totalProfit">
+            <div className="totalStatsTopSide">
+              <div className="totalStatsPercent">-21.8%</div>
+              <div className="totalStatschart">Picture</div>
+            </div>
+            <div className="totalStatsBottomSide">
+              <div className="totalStatsTitle">Total Profit</div>
+              <div className="totalStatsAmount">$21,600</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div>Analysis</div>
+          <div>chart</div>
+        </div>
+
+        <div>
+          <div>
+            <div>Transaction History</div>
+            <div>
+              <div>Newest</div>
+              <div>Oldest</div>
+            </div>
+          </div>
         </div>
       </div>
     </>

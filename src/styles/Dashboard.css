@@ -1,5 +1,6 @@
 .dashBoardBody {
   padding-left: 18.1%;
+  padding-right: 20%;
 }
 
 .introduction {
@@ -20,12 +21,61 @@
 .totalStats {
   padding-top: 1rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+}
+
+.totalRevenue,
+.totalExpenses,
+.totalProfit {
+  border: solid;
+  margin-right: 2rem;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 25px;
+  border-color: lightgrey;
+  border-width: thin;
 }
 
 .totalRevenue {
+  background-color: lightblue;
+}
+
+.totalExpenses {
+  background-color: lightpink;
+}
+
+.totalProfit {
+  background-color: lightgreen;
+}
+
+.totalStatsTopSide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalStatsBottomSide {
+  display: grid;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.totalStatsPercent {
   border: solid;
+  padding: 0.8rem;
+  border-radius: 25px;
+  border-color: lightgrey;
   border-width: thin;
-  border-color: grey;
-  padding: 5rem;
+  background-color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.totalStatsAmount {
+  font-size: 35px;
+}
+
+.totalStatschart {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
