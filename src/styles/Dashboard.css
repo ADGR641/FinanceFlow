@@ -36,6 +36,10 @@
   border-width: thin;
 }
 
+.totalProfit {
+  margin-right: 0;
+}
+
 .totalRevenue {
   background-color: lightblue;
 }
@@ -78,4 +82,21 @@
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
+}
+
+.analysisSection {
+  border: solid;
+  border-radius: 25px;
+  border-color: lightgrey;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.analysisTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.analysisChart {
+  padding: 1rem;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Dashboard.css";
 import Person2Icon from "@mui/icons-material/Person2";
+import LineChart from "../components/LineChart.js";
 
 function Dashbaord() {
   return (
@@ -49,9 +50,11 @@ function Dashbaord() {
           </div>
         </div>
 
-        <div>
-          <div>Analysis</div>
-          <div>chart</div>
+        <div className="analysisSection">
+          <div className="analysisTitle">Analysis</div>
+          <div className="analysisChart">
+            <LineChart />
+          </div>
         </div>
 
         <div>
