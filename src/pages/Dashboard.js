@@ -51,14 +51,13 @@ function Dashbaord() {
         </div>
 
         <div className="analysisSection">
-          <div className="analysisTitle">Analysis</div>
           <div className="analysisChart">
             <LineChart />
           </div>
         </div>
 
-        <div>
-          <div>
+        <div className="transactionHistorySection">
+          <div className="transactionHistoryTopSide">
             <div>Transaction History</div>
             <div>
               <div>Newest</div>

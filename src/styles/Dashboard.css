@@ -92,11 +92,19 @@
   margin-top: 1rem;
 }
 
-.analysisTitle {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
 .analysisChart {
   padding: 1rem;
+}
+
+.transactionHistorySection {
+  border: solid;
+  border-radius: 25px;
+  border-color: lightgrey;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.transactionHistoryTopSide {
+  display: flex;
+  justify-content: space-between;
 }
