@@ -59,10 +59,20 @@ function Dashbaord() {
         <div className="transactionHistorySection">
           <div className="transactionHistoryTopSide">
             <div>Transaction History</div>
-            <div>
-              <div>Newest</div>
-              <div>Oldest</div>
+            <div className="transactionHistorySorting">
+              <div className="transactionHistoryNewest">Newest</div>
+              <div className="transactionHistoryOldests">Oldest</div>
             </div>
+          </div>
+          <div className="transactionHistoryBottomSide">
+            <div>Transaction</div>
+            <div>Type</div>
+            <div>Amount</div>
+            <div>Date</div>
+            <div>Status</div>
+          </div>
+          <div>
+            <ul></ul>
           </div>
         </div>
       </div>

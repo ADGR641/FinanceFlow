@@ -107,4 +107,31 @@
 .transactionHistoryTopSide {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.transactionHistorySorting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactionHistoryNewest {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: solid;
+  border-radius: 25px;
+  border-color: lightgrey;
+}
+
+.transactionHistoryOldests {
+  padding: 0.5rem;
+  border: solid;
+  border-radius: 25px;
+  border-color: lightgrey;
+}
+
+.transactionHistoryBottomSide {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
